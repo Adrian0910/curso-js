@@ -1,0 +1,21 @@
+
+
+
+<html>
+    <head>
+        <title>Catalogo de Peliculas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/programa.js"></script>
+    </head>
+    <body> 
+        <h1>Catalogo de peliculas</h1>
+        <label>Ingresa pelicula (y da enter): </label>
+        <input type="text" name="nombre" onchange="PushMovie(this)"/>
+        <div id="resultado" style="color: red"></div>
+        <br/>
+        <label>Escribe el nombre de la pelicula (en mayusculas) para saber su posicion (y da enter): </label>
+        <input type="text"  name="nombre" onchange="BuscarPelicula(this)"/>
+        <div id="busqueda" style="color: brown"></div>
+    </body>
+</html>
